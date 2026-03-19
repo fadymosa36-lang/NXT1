@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yassa Ayman — AI & Data Science</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./staily.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<nav id="nav">
+  <a href="#" class="nav-logo">YASSA.DEV</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="hero-tag">AI & Data Science Enthusiast</p>
+    <h1>Yassa<br><span>Ayman</span></h1>
+    <p class="hero-desc">Motivated AI and Data enthusiast with a strong foundation in Python, Machine Learning, Data Analysis, and Visualization. Turning raw data into meaningful insights.</p>
+    <div class="hero-actions">
+      <a href="#about" class="btn-primary"><span>About Me</span></a>
+      <a href="#contact" class="btn-ghost">Get In Touch</a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <img src="./download.jpg"  alt="Yassa Ayman" class="hero-photo" />
+    <div class="hero-photo-badge">OPEN TO OPPORTUNITIES</div>
+    <div class="hero-photo-corner tl"></div>
+    <div class="hero-photo-corner tr"></div>
+    <div class="hero-photo-corner bl"></div>
+    <div class="hero-photo-corner br"></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">Who Am I?</h2>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p><strong>Yassa Ayman</strong> is a motivated AI and Data enthusiast with a strong foundation in essential technical skills.</p>
+      <p>He is proficient in <strong>Python Programming</strong>, which he uses to build data-driven solutions and implement machine learning models. He has solid knowledge of <strong>Data Analysis</strong>, allowing him to explore datasets, extract insights, and support decision-making.</p>
+      <p>In addition, he is familiar with <strong>Machine Learning</strong> fundamentals, enabling him to understand and develop intelligent systems. He also has experience working with <strong>SQL & Databases</strong>, ensuring efficient data storage, retrieval, and management.</p>
+      <p>Furthermore, he is skilled in <strong>Data Visualization</strong>, presenting data clearly using tools like Power BI and Python libraries. He is continuously learning and improving his skills to grow in the field of <strong>Artificial Intelligence and Data Science</strong>.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card"><div class="stat-num">5</div><div class="stat-label">Core Skills</div></div>
+      <div class="stat-card"><div class="stat-num">AI</div><div class="stat-label">Main Focus</div></div>
+      <div class="stat-card"><div class="stat-num">ML</div><div class="stat-label">Specialization</div></div>
+      <div class="stat-card"><div class="stat-num">∞</div><div class="stat-label">Curiosity</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">My SKILLS</h2>
+  <div class="skills-grid reveal">
+    <div class="skill-group">
+      <div class="skill-group-title">DATA ANALYSIS</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Pandas</span>
+        <span class="skill-tag">NumPy</span>
+        <span class="skill-tag">Excel</span>
+        <span class="skill-tag">Statistics</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">MACHINE LEARNING</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Scikit-learn</span>
+        <span class="skill-tag">TensorFlow</span>
+        <span class="skill-tag">ML Models</span>
+        <span class="skill-tag">Feature Engineering</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">DATA VISUALIZATION</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Power BI</span>
+        <span class="skill-tag">Matplotlib</span>
+        <span class="skill-tag">Seaborn</span>
+        <span class="skill-tag">Plotly</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">SQL & DATABASES</div>
+      <div class="skill-tags">
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Database Design</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Let's Talk</h2>
+  <div class="contact-grid reveal">
+    <div class="contact-info">
+      <p>Interested in collaborating or have an opportunity? I'm always open to connecting with people in AI and Data Science. Reach out and let's build something great.</p>
+      <div class="contact-links">
+        <a href="https://wa.me/201229991806" target="_blank" class="contact-link">
+          <span class="icon">📱</span> +20 122 999 1806
+        </a>
+        <a href="https://www.linkedin.com/in/yassa-ayman-067584357" target="_blank" class="contact-link">
+          <span class="icon">in</span> linkedin.com/in/yassa-ayman
+        </a>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label>YOUR NAME</label>
+        <input type="text" placeholder="John Smith" required>
+      </div>
+      <div class="form-group">
+        <label>YOUR EMAIL</label>
+        <input type="email" placeholder="email@example.com" required>
+      </div>
+      <div class="form-group">
+        <label>YOUR MESSAGE</label>
+        <textarea placeholder="I'd love to connect..."></textarea>
+      </div>
+      <button type="submit" class="btn-send">Send Message →</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-text">YASSA AYMAN — AI & DATA SCIENCE</span>
+
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/yassa-ayman-067584357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer-social-btn" title="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+      <span>LinkedIn</span>
+    </a>
+    <a href="https://wa.me/201229991806" target="_blank" class="footer-social-btn whatsapp" title="WhatsApp">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <span class="footer-copy">© 2025 — Yassa Ayman Walaan</span>
+</footer>
+
+<script src="./js.js"></script>
+</body>
+</html>
